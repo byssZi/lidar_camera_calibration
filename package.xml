@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>sensors_calib</name>
+  <version>0.1.0</version>
+  <description>A ROS 2 package for capturing point clouds and images.</description>
+  <maintainer email="your_email@example.com">Your Name</maintainer>
+  <license>Apache License 2.0</license>
+
+
+  <!-- 构建和依赖项 -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <build_depend>rclcpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <!--<build_depend>msg_all</build_depend>-->
+  <build_depend>cv_bridge</build_depend>
+  <build_depend>opencv</build_depend>
+  <build_depend>pcl_conversions</build_depend>
+  <build_depend>pcl_msgs</build_depend>
+  <!-- 其他构建依赖项 -->
+  <!--<exec_depend>msg_all</exec_depend>-->
+  <!-- 测试依赖项 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+  <!-- 其他测试依赖项 -->
+</package>
+
