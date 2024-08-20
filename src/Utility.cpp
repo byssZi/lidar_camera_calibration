@@ -1,10 +1,3 @@
-/**
- * @file    Utility.cpp
- *
- * @author  btran
- *
- */
-
 #include <boost/math/constants/constants.hpp>
 
 #include <sensors_calib/utils/ParamConfig.hpp>

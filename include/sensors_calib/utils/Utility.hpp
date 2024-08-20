@@ -1,10 +1,3 @@
-/**
- * @file    Utility.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include <algorithm>

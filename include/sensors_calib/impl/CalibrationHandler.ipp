@@ -1,10 +1,3 @@
-/**
- * @file    CalibrationHandler.ipp
- *
- * @author  btran
- *
- */
-
 namespace perception
 {
 template <typename POINT_CLOUD_TYPE>

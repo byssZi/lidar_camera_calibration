@@ -1,6 +1,6 @@
 ## Introduction
 
-This is a project for LiDAR to camera calibration， including automatic calibration and manual calibration.
+This is a project for LiDAR to camera calibration，including automatic calibration and manual calibration.
 
 ## Prerequisites
 
@@ -9,16 +9,6 @@ This is a project for LiDAR to camera calibration， including automatic calibra
 - eigen 3
 - PCL 1.9
 - Pangolin
-
-## Compile
-Compile in their respective folders
-
-```shell
-# mkdir build
-mkdir -p build && cd build
-# build
-cmake .. && make
-```
 
 ## Manual calibration tool
 
@@ -33,17 +23,7 @@ cmake .. && make
 + **extrinsic_json:** JSON file of initial values of extrinsic parameters between sensors
 </br>
 
-
-2. Run the test sample:
-
-   The executable file is under the bin folder.
-
-   ```
-   cd ~./manual_calib/
-   ./bin/run_lidar2camera data/0.png data/0.pcd data/center_camera-intrinsic.json data/top_center_lidar-to-center_camera-extrinsic.json
-   ```
-
-3. Calibration panel:
+2. Calibration panel:
 
    <img src="./images/lidar2camera_panel.png" width="100%" height="100%" alt="lidar2camera_panel" div align=center /><br>
 
@@ -97,4 +77,5 @@ cmake .. && make
    Distortion:
    [-0.108145,0.138668,-0.00379757,-0.00484127]
    ```
+
 

@@ -1,10 +1,3 @@
-/**
- * @file    Constants.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 namespace perception

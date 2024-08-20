@@ -1,10 +1,3 @@
-/**
- * @file    Types.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include <memory>

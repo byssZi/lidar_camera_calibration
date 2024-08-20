@@ -1,8 +1,8 @@
 {
-    "path_to_initial_guess": "/home/nuc/automatic_lidar_camera_calibration-master/data/samples/initial_guess.json",
-    "path_to_images": "/home/nuc/automatic_lidar_camera_calibration-master/data/samples/images.txt",
-    "path_to_point_clouds": "/home/nuc/automatic_lidar_camera_calibration-master/data/samples/point_clouds.txt",
-    "path_to_camera_info": "/home/nuc/automatic_lidar_camera_calibration-master/data/samples/camera_info.json",
+    "path_to_initial_guess": "/home/nuc/lidar_camera_calibration-master/data/samples/initial_guess.json",
+    "path_to_images": "/home/nuc/lidar_camera_calibration-master/data/samples/images.txt",
+    "path_to_point_clouds": "/home/nuc/lidar_camera_calibration-master/data/samples/point_clouds.txt",
+    "path_to_camera_info": "/home/nuc/lidar_camera_calibration-master/data/samples/camera_info.json",
     "num_bins": 256,
     "delta_trans":0.01,
     "delta_rot_deg": 1.0,

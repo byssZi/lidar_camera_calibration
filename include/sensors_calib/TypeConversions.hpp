@@ -1,10 +1,3 @@
-/**
- * @file    TypeConversions.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include "Types.hpp"

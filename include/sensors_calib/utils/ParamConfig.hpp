@@ -1,10 +1,3 @@
-/**
- * @file    ParamConfig.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include <fstream>

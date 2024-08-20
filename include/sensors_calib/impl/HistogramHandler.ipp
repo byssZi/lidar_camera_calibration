@@ -1,10 +1,3 @@
-/**
- * @file    HistogramHandler.ipp
- *
- * @author  btran
- *
- */
-
 namespace perception
 {
 template <typename PointCloudType>

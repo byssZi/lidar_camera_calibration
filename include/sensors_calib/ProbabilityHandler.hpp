@@ -1,10 +1,3 @@
-/**
- * @file    ProbabilityHandler.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include <memory>

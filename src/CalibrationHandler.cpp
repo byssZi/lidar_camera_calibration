@@ -1,10 +1,3 @@
-/**
- * @file    CalibrationHandler.cpp
- *
- * @author  btran
- *
- */
-
 #include <boost/math/constants/constants.hpp>
 
 #include <sensors_calib/CalibrationHandler.hpp>

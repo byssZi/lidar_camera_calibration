@@ -1,10 +1,3 @@
-/**
- * @file    HistogramHandler.cpp
- *
- * @author  btran
- *
- */
-
 #include <sensors_calib/HistogramHandler.hpp>
 #include <sensors_calib/utils/Utility.hpp>
 

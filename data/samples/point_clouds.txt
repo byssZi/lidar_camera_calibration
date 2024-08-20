@@ -1,2 +1,0 @@
-./data/point_clouds/0.pcd
-./data/point_clouds/1.pcd

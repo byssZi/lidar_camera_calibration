@@ -1,10 +1,3 @@
-/**
- * @file    SensorsCalibApp.cpp
- *
- * @author  btran
- *
- */
-
 #include <iostream>
 #include <fstream>
 #include <string>

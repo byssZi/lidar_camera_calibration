@@ -1,10 +1,3 @@
-/**
- * @file    HistogramHandler.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include <memory>

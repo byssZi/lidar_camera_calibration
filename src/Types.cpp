@@ -1,10 +1,3 @@
-/**
- * @file    Types.cpp
- *
- * @author  btran
- *
- */
-
 #include <sensors_calib/Types.hpp>
 #include <sensors_calib/utils/ParamConfig.hpp>
 

@@ -1,10 +1,3 @@
-/**
- * @file    CalibrationHandler.hpp
- *
- * @author  btran
- *
- */
-
 #pragma once
 
 #include <memory>

@@ -1,8 +1,3 @@
-/**
- * @file    PointCloudFilter.hpp
- *
- */
-
 #pragma once
 
 #include <pcl/filters/crop_box.h>

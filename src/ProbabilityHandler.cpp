@@ -1,10 +1,3 @@
-/**
- * @file    ProbabilityHandler.cpp
- *
- * @author  btran
- *
- */
-
 #include <opencv2/opencv.hpp>
 
 #include <sensors_calib/ProbabilityHandler.hpp>

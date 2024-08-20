@@ -1,10 +1,3 @@
-/**
- * @file    ParamConfig.cpp
- *
- * @author  btran
- *
- */
-
 #include <sensors_calib/utils/ParamConfig.hpp>
 
 namespace perception
