@@ -69,11 +69,17 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
-    std::string file1 = "/home/nuc/automatic_lidar_camera_calibration-master/data/samples/images.txt";
-    std::string file2 = "/home/nuc/automatic_lidar_camera_calibration-master/data/samples/point_clouds.txt";
-    removeExtraLines(file1, file2);
-
     const std::string PARAM_PATH = argv[1];
+
+    // 查找 "data" 子字符串的位置
+    size_t pos = PARAM_PATH.find("/data/");
+
+    pkg_loc = PARAM_PATH.substr(0, pos);
+
+    std::string file1 = PARAM_PATH + "/data/samples/images.txt";
+    std::string file2 = PARAM_PATH + "/data/samples/point_clouds.txt";
+
+    removeExtraLines(file1, file2);
 
     perception::CalibrationHandlerParam param = perception::getCalibrationHandlerParam(PARAM_PATH);
     perception::CalibrationHandler<PointCloudType>::Ptr calibrationHandler(
@@ -89,15 +95,15 @@ int main(int argc, char* argv[])
 
     for (std::size_t i = 0; i < visualizedImgs.size(); ++i) {
         const auto& curImg = visualizedImgs[i];
-        cv::imwrite("/home/nuc/automatic_lidar_camera_calibration-master/data/result/img" + std::to_string(i) + ".png", curImg);
+        cv::imwrite(PARAM_PATH + "/data/result/img" + std::to_string(i) + ".png", curImg);
     }
 
     for (std::size_t i = 0; i < projectedClouds.size(); ++i) {
         const auto& curCloud = projectedClouds[i];
-        pcl::io::savePCDFileASCII("/home/nuc/automatic_lidar_camera_calibration-master/data/result/cloud" + std::to_string(i) + ".pcd", *curCloud);
+        pcl::io::savePCDFileASCII(PARAM_PATH + "/data/result/cloud" + std::to_string(i) + ".pcd", *curCloud);
     }
     Eigen::Affine3d affine = perception::toAffine(transform);
-    result_file.open("/home/nuc/automatic_lidar_camera_calibration-master/data/result/transform.txt");
+    result_file.open(PARAM_PATH + "/data/result/transform.txt");
     if (result_file.is_open()) {
         result_file << "x, y, z, roll, pitch, yaw is: " << "\n"
                     << transform(0) << "\n"
